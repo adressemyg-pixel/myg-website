@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: myg-api
+    runtime: node
+    plan: free
+    buildCommand: "npm install -g pnpm && pnpm install --frozen-lockfile && pnpm --filter @workspace/api-server run build"
+    startCommand: "node artifacts/api-server/dist/index.js"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: DEFAULT_OBJECT_STORAGE_BUCKET_ID
+        sync: false
+      - key: PRIVATE_OBJECT_DIR
+        sync: false
+      - key: PUBLIC_OBJECT_SEARCH_PATHS
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false

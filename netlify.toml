@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://your-render-api.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+[build]
+  command = "pnpm --filter @workspace/myg-website run build:netlify"
+  publish = "artifacts/myg-website/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  PNPM_VERSION = "9"
