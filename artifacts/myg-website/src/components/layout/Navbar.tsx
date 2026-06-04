@@ -3,19 +3,21 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-
-const navLinks = [
-  { name: "About", href: "/about" },
-  { name: "Domains & Services", href: "/domains" },
-  { name: "Schools", href: "/schools" },
-  { name: "Events", href: "/events" },
-  { name: "Brochures", href: "/brochures" },
-  { name: "Contact", href: "/contact" },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export function Navbar() {
   const [location] = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { lang, setLang, t } = useLanguage();
+
+  const navLinks = [
+    { name: t.nav.about,   href: "/about" },
+    { name: t.nav.domains, href: "/domains" },
+    { name: t.nav.schools, href: "/schools" },
+    { name: t.nav.events,  href: "/events" },
+    { name: t.nav.brochures, href: "/brochures" },
+    { name: t.nav.contact, href: "/contact" },
+  ];
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -27,7 +29,7 @@ export function Navbar() {
           <div className="hidden md:flex gap-6">
             {navLinks.map((link) => (
               <Link
-                key={link.name}
+                key={link.href}
                 href={link.href}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-primary",
@@ -41,8 +43,30 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
+          {/* Language toggle */}
+          <div className="flex items-center gap-1 text-sm font-semibold border border-white/15 px-3 py-1.5">
+            <button
+              onClick={() => setLang("fr")}
+              className={cn(
+                "transition-colors",
+                lang === "fr" ? "text-accent" : "text-white/40 hover:text-white/70"
+              )}
+            >
+              FR
+            </button>
+            <span className="text-white/20 mx-1">|</span>
+            <button
+              onClick={() => setLang("en")}
+              className={cn(
+                "transition-colors",
+                lang === "en" ? "text-accent" : "text-white/40 hover:text-white/70"
+              )}
+            >
+              EN
+            </button>
+          </div>
           <Button asChild variant="default" className="rounded-none">
-            <Link href="/contact">Join the Movement</Link>
+            <Link href="/contact">{t.nav.cta}</Link>
           </Button>
         </div>
 
@@ -59,7 +83,7 @@ export function Navbar() {
         <div className="md:hidden border-b border-border bg-background px-4 py-4 space-y-4">
           {navLinks.map((link) => (
             <Link
-              key={link.name}
+              key={link.href}
               href={link.href}
               className={cn(
                 "block text-lg font-medium transition-colors hover:text-primary",
@@ -70,9 +94,24 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
-          <div className="pt-4 border-t border-border">
+          <div className="flex items-center gap-3 pt-2">
+            <button
+              onClick={() => setLang("fr")}
+              className={cn("text-sm font-semibold", lang === "fr" ? "text-accent" : "text-white/40")}
+            >
+              FR
+            </button>
+            <span className="text-white/20">|</span>
+            <button
+              onClick={() => setLang("en")}
+              className={cn("text-sm font-semibold", lang === "en" ? "text-accent" : "text-white/40")}
+            >
+              EN
+            </button>
+          </div>
+          <div className="pt-2 border-t border-border">
             <Button asChild className="w-full rounded-none">
-              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Join the Movement</Link>
+              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>{t.nav.cta}</Link>
             </Button>
           </div>
         </div>

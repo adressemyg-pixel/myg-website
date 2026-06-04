@@ -11,6 +11,7 @@ import { Schools } from "@/pages/Schools";
 import { Events } from "@/pages/Events";
 import { Brochures } from "@/pages/Brochures";
 import { Contact } from "@/pages/Contact";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const queryClient = new QueryClient();
 
