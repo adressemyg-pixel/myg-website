@@ -19,8 +19,8 @@ export function Schools() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070')",
-            opacity: 0.3,
+              "url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2070')",
+            opacity: 0.4,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/50 via-zinc-950/60 to-zinc-950" />
@@ -47,9 +47,9 @@ export function Schools() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="h-72 lg:h-auto overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1000"
-              alt="Students in session"
-              className="w-full h-full object-cover opacity-80"
+              src="https://images.unsplash.com/photo-1462899006636-339e08d1844e?q=80&w=1000"
+              alt="Dark conference room"
+              className="w-full h-full object-cover brightness-75"
             />
           </div>
           <div className="p-16 flex flex-col justify-center">

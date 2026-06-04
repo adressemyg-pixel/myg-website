@@ -11,8 +11,8 @@ export function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070')",
-            opacity: 0.35,
+              "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070')",
+            opacity: 0.45,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/30" />
@@ -110,30 +110,30 @@ export function Home() {
             <div className="grid grid-cols-2 gap-3">
               <div className="relative aspect-square overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=800"
-                  alt="Youth leadership"
-                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800"
+                  alt="Modern headquarters"
+                  className="w-full h-full object-cover brightness-75"
                 />
               </div>
               <div className="relative aspect-square overflow-hidden translate-y-6">
                 <img
-                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=800"
-                  alt="Team collaboration"
-                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1462899006636-339e08d1844e?q=80&w=800"
+                  alt="Dark boardroom"
+                  className="w-full h-full object-cover brightness-75"
                 />
               </div>
               <div className="relative aspect-square overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800"
-                  alt="Conference session"
-                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800"
+                  alt="Urban architecture"
+                  className="w-full h-full object-cover brightness-75"
                 />
               </div>
               <div className="relative aspect-square overflow-hidden translate-y-6">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800"
-                  alt="Business discussion"
-                  className="w-full h-full object-cover"
+                  src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=800"
+                  alt="Conference meeting"
+                  className="w-full h-full object-cover brightness-75"
                 />
               </div>
             </div>
@@ -168,17 +168,17 @@ export function Home() {
               {
                 title: "MUN & Diplomacy",
                 desc: "Master international relations, debate, and consensus building in high-fidelity UN simulations.",
-                img: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e3?q=80&w=800",
+                img: "https://images.unsplash.com/photo-1438557068880-c5f474830377?q=80&w=800",
               },
               {
                 title: "Law & Judicial",
                 desc: "Rigorous Settlement & Trial simulations demanding critical analysis and rhetorical precision.",
-                img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800",
+                img: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?q=80&w=800",
               },
               {
                 title: "Business & Strategy",
                 desc: "Navigate complex corporate scenarios, leadership challenges, and organizational governance.",
-                img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800",
+                img: "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?q=80&w=800",
               },
             ].map((domain) => (
               <div
@@ -210,8 +210,8 @@ export function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2070')",
-            opacity: 0.25,
+              "url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2070')",
+            opacity: 0.3,
           }}
         />
         <div className="absolute inset-0 bg-zinc-950/80" />

@@ -7,8 +7,8 @@ export function About() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=2069')",
-            opacity: 0.25,
+              "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070')",
+            opacity: 0.35,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/60 to-zinc-950" />
@@ -60,23 +60,23 @@ export function About() {
         <div className="grid grid-cols-3 h-64 md:h-80">
           <div className="overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=800"
-              alt="Youth leadership session"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 opacity-80 hover:opacity-100"
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800"
+              alt="Modern headquarters interior"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 brightness-75 hover:brightness-90"
             />
           </div>
           <div className="overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800"
-              alt="Conference"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 opacity-80 hover:opacity-100"
+              src="https://images.unsplash.com/photo-1462899006636-339e08d1844e?q=80&w=800"
+              alt="Dark boardroom meeting"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 brightness-75 hover:brightness-90"
             />
           </div>
           <div className="overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800"
-              alt="Discussion"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 opacity-80 hover:opacity-100"
+              src="https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=800"
+              alt="City skyline at night"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 brightness-75 hover:brightness-90"
             />
           </div>
         </div>

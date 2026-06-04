@@ -6,37 +6,37 @@ export function Domains() {
       icon: <Globe2 className="h-8 w-8 text-accent" />,
       title: "MUN & Diplomacy",
       desc: "Immersive Model United Nations simulations, fostering negotiation, international relations, and global awareness.",
-      img: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e3?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1438557068880-c5f474830377?q=80&w=800",
     },
     {
       icon: <Scale className="h-8 w-8 text-accent" />,
       title: "Law",
       desc: "Judicial simulations and Settlement & Trial experiences designed to sharpen legal reasoning and advocacy.",
-      img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?q=80&w=800",
     },
     {
       icon: <Briefcase className="h-8 w-8 text-accent" />,
       title: "Business",
       desc: "Corporate strategy, entrepreneurship challenges, and economic policy debates for aspiring executives.",
-      img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?q=80&w=800",
     },
     {
       icon: <Brain className="h-8 w-8 text-accent" />,
       title: "AI",
       desc: "Exploring the governance, ethics, and societal impact of artificial intelligence and emerging technologies.",
-      img: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800",
     },
     {
       icon: <Mic className="h-8 w-8 text-accent" />,
       title: "Eloquence",
       desc: "The art of public speaking, rhetoric, and persuasive communication to command any room.",
-      img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=800",
     },
     {
       icon: <Shield className="h-8 w-8 text-accent" />,
       title: "Leadership & Governance",
       desc: "Core organizational leadership, ethical decision making, and institutional management.",
-      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800",
     },
   ];
 
@@ -55,8 +55,8 @@ export function Domains() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070')",
-            opacity: 0.2,
+              "url('https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=2070')",
+            opacity: 0.35,
           }}
         />
         <div className="absolute inset-0 bg-zinc-950/70" />

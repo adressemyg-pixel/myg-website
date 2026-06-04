@@ -11,7 +11,7 @@ export function Events() {
       location: "Casablanca, Morocco",
       desc: "Our flagship Model United Nations conference. Hundreds of delegates convening to debate global policy, draft resolutions, and forge diplomatic consensus.",
       status: "Coming Soon",
-      img: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e3?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1438557068880-c5f474830377?q=80&w=800",
     },
     {
       title: "S&T Settlement & Trial",
@@ -20,7 +20,7 @@ export function Events() {
       location: "Casablanca",
       desc: "A rigorous legal simulation where participants act as plaintiffs, defendants, and judges in complex domestic and international cases.",
       status: "In Planning",
-      img: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?q=80&w=800",
     },
     {
       title: "Nexus of Leaders Congress",
@@ -29,7 +29,7 @@ export function Events() {
       location: "Morocco",
       desc: "An exclusive gathering of MYG club presidents, executive members, and distinguished speakers focusing on institutional governance.",
       status: "Coming Soon",
-      img: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=800",
     },
     {
       title: "Conferences & Meetups",
@@ -38,7 +38,7 @@ export function Events() {
       location: "Various Campuses",
       desc: "Periodic sessions featuring industry leaders, diplomats, and academics sharing insights with the MYG community.",
       status: "TBC",
-      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800",
+      img: "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?q=80&w=800",
     },
   ];
 
@@ -50,8 +50,8 @@ export function Events() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070')",
-            opacity: 0.25,
+              "url('https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=2070')",
+            opacity: 0.35,
           }}
         />
         <div className="absolute inset-0 bg-zinc-950/70" />
