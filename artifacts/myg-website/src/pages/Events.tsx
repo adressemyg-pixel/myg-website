@@ -40,9 +40,9 @@ export function Events() {
 
   return (
     <div className="flex flex-col w-full bg-background">
-      <section className="py-24 bg-primary text-primary-foreground text-center px-4">
+      <section className="py-24 bg-zinc-950 text-foreground text-center px-4">
         <h1 className="text-5xl font-serif font-bold mb-6 text-accent">Upcoming Events</h1>
-        <p className="text-xl max-w-2xl mx-auto text-primary-foreground/80">
+        <p className="text-xl max-w-2xl mx-auto text-foreground/70">
           The arenas where preparation meets practice. Discover where the next generation of leaders will convene.
         </p>
       </section>
@@ -53,7 +53,7 @@ export function Events() {
             <div key={i} className="flex flex-col md:flex-row gap-8 bg-card border border-border p-8 rounded-none hover:border-accent transition-colors group">
               <div className="md:w-1/3 flex flex-col justify-between border-b md:border-b-0 md:border-r border-border pb-6 md:pb-0 md:pr-6">
                 <div>
-                  <Badge variant="outline" className="mb-4 text-primary border-primary/20 rounded-none bg-primary/5">{event.type}</Badge>
+                  <Badge variant="outline" className="mb-4 text-accent border-accent/30 rounded-none bg-accent/5">{event.type}</Badge>
                   <h3 className="text-2xl font-serif font-bold text-primary group-hover:text-accent transition-colors mb-4">{event.title}</h3>
                 </div>
                 <Badge className="w-fit bg-muted text-muted-foreground hover:bg-muted rounded-none font-medium">

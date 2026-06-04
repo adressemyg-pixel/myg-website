@@ -1,10 +1,10 @@
 export function About() {
   return (
     <div className="flex flex-col w-full">
-      <section className="py-24 bg-primary text-primary-foreground">
+      <section className="py-24 bg-zinc-950 text-foreground">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h1 className="text-5xl md:text-6xl font-serif font-bold mb-8 text-accent">Who We Are</h1>
-          <p className="text-xl md:text-2xl leading-relaxed text-primary-foreground/90">
+          <p className="text-xl md:text-2xl leading-relaxed text-foreground/80">
             Moroccan Youth Governance is a premier platform dedicated to empowering the next generation of leaders. We believe leadership is not a trait, but a discipline forged through practice.
           </p>
         </div>

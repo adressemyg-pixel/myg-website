@@ -91,9 +91,9 @@ export function Brochures() {
 
   return (
     <div className="flex flex-col w-full bg-background min-h-screen">
-      <section className="py-24 bg-primary text-primary-foreground text-center px-4">
+      <section className="py-24 bg-zinc-950 text-foreground text-center px-4">
         <h1 className="text-5xl font-serif font-bold mb-6 text-accent">Brochures & Resources</h1>
-        <p className="text-xl max-w-2xl mx-auto text-primary-foreground/80">
+        <p className="text-xl max-w-2xl mx-auto text-foreground/70">
           Download official MYG literature, event guides, and partnership materials.
         </p>
       </section>
@@ -124,7 +124,7 @@ export function Brochures() {
                   <CardDescription className="text-base">{b.description}</CardDescription>
                 </CardContent>
                 <CardFooter className="pt-6 border-t border-border flex flex-col sm:flex-row gap-2">
-                  <Button asChild variant="ghost" className="w-full justify-between rounded-none hover:bg-primary hover:text-primary-foreground group">
+                  <Button asChild variant="ghost" className="w-full justify-between rounded-none hover:bg-accent hover:text-accent-foreground group">
                     <a href={`/api/storage/objects/${b.objectPath}`} target="_blank" rel="noopener noreferrer">
                       <span>Download PDF</span>
                       <Download className="w-4 h-4 text-accent group-hover:text-accent" />

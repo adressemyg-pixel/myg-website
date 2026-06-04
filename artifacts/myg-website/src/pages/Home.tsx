@@ -6,9 +6,9 @@ export function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center bg-primary overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center bg-zinc-950 overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/90 to-transparent"></div>
         
         <div className="container mx-auto px-4 relative z-10 flex flex-col max-w-4xl pt-20">
           <div className="inline-flex items-center space-x-2 border border-accent/30 bg-accent/10 text-accent px-4 py-1.5 w-fit mb-8 backdrop-blur-sm">
@@ -18,11 +18,11 @@ export function Home() {
             Façonner les leaders de demain
             <span className="block text-accent mt-2 text-4xl md:text-6xl italic">Shaping Tomorrow's Leaders</span>
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mb-10 leading-relaxed">
+          <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mb-10 leading-relaxed">
             MYG is where ambitious Moroccan youth step into tomorrow's world. A high-stakes movement for serious governance, diplomacy, and leadership development.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button asChild size="lg" className="bg-accent text-primary hover:bg-accent/90 rounded-none text-base h-14 px-8">
+            <Button asChild size="lg" className="bg-accent text-black hover:bg-accent/90 rounded-none text-base h-14 px-8">
               <Link href="/contact">Join the Movement</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 rounded-none text-base h-14 px-8 backdrop-blur-sm">
@@ -60,11 +60,11 @@ export function Home() {
                 <h3 className="font-serif text-4xl font-bold text-primary mb-2">500+</h3>
                 <p className="text-muted-foreground">Delegates Trained</p>
               </div>
-              <div className="bg-primary text-primary-foreground p-8 aspect-square flex flex-col justify-end translate-y-8">
-                <h3 className="font-serif text-4xl font-bold text-accent mb-2">12</h3>
-                <p className="text-primary-foreground/80">School Partners</p>
+              <div className="bg-accent text-accent-foreground p-8 aspect-square flex flex-col justify-end translate-y-8">
+                <h3 className="font-serif text-4xl font-bold text-black mb-2">12</h3>
+                <p className="text-black/70">School Partners</p>
               </div>
-              <div className="bg-accent text-primary p-8 aspect-square flex flex-col justify-end">
+              <div className="bg-accent text-black p-8 aspect-square flex flex-col justify-end">
                 <h3 className="font-serif text-4xl font-bold mb-2">6</h3>
                 <p className="font-medium opacity-80">Core Domains</p>
               </div>
@@ -106,13 +106,13 @@ export function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 bg-primary text-center px-4 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')]"></div>
+      <section className="py-32 bg-zinc-950 text-center px-4 relative overflow-hidden border-t border-white/5">
+        <div className="absolute inset-0 opacity-5 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')]"></div>
         <div className="relative z-10 max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-8">Ready to step into the arena?</h2>
-          <p className="text-xl text-primary-foreground/80 mb-12">Whether you're a student looking to join, or a school seeking partnership, the MYG network awaits.</p>
+          <p className="text-xl text-foreground/70 mb-12">Whether you're a student looking to join, or a school seeking partnership, the MYG network awaits.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button asChild size="lg" className="bg-accent text-primary hover:bg-accent/90 rounded-none h-14 px-8 text-lg">
+            <Button asChild size="lg" className="bg-accent text-black hover:bg-accent/90 rounded-none h-14 px-8 text-lg">
               <Link href="/contact">Partner With Us</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 rounded-none h-14 px-8 text-lg">

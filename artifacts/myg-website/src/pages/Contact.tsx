@@ -56,9 +56,9 @@ export function Contact() {
 
   return (
     <div className="flex flex-col w-full bg-background min-h-screen">
-      <section className="py-24 bg-primary text-primary-foreground text-center px-4">
+      <section className="py-24 bg-zinc-950 text-foreground text-center px-4">
         <h1 className="text-5xl font-serif font-bold mb-6 text-accent">Contact MYG</h1>
-        <p className="text-xl max-w-2xl mx-auto text-primary-foreground/80">
+        <p className="text-xl max-w-2xl mx-auto text-foreground/70">
           Reach out for partnerships, event inquiries, or to learn how to join the movement.
         </p>
       </section>

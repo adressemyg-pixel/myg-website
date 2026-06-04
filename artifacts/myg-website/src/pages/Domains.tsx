@@ -20,9 +20,9 @@ export function Domains() {
 
   return (
     <div className="flex flex-col w-full bg-background">
-      <section className="py-24 bg-primary text-primary-foreground text-center px-4">
+      <section className="py-24 bg-zinc-950 text-foreground text-center px-4">
         <h1 className="text-5xl font-serif font-bold mb-6 text-accent">Domains & Services</h1>
-        <p className="text-xl max-w-2xl mx-auto text-primary-foreground/80">
+        <p className="text-xl max-w-2xl mx-auto text-foreground/70">
           The structural pillars of the MYG experience. Rigorous arenas designed to test and forge specific competencies.
         </p>
       </section>

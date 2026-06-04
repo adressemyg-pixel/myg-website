@@ -13,14 +13,14 @@ export function Schools() {
 
   return (
     <div className="flex flex-col w-full bg-background">
-      <section className="py-24 bg-primary text-primary-foreground text-center px-4 relative overflow-hidden">
+      <section className="py-24 bg-zinc-950 text-foreground text-center px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070')] bg-cover bg-center opacity-10"></div>
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 text-accent">Schools Department</h1>
-          <p className="text-xl text-primary-foreground/90 leading-relaxed mb-10">
+          <p className="text-xl text-foreground/80 leading-relaxed mb-10">
             Partner with Moroccan Youth Governance to bring premier leadership and diplomacy training directly to your students.
           </p>
-          <Button asChild size="lg" className="bg-accent text-primary hover:bg-accent/90 rounded-none h-14 px-8 text-lg">
+          <Button asChild size="lg" className="bg-accent text-black hover:bg-accent/90 rounded-none h-14 px-8 text-lg">
             <Link href="/contact">Request Partnership Details</Link>
           </Button>
         </div>
